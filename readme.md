@@ -126,7 +126,7 @@ contents of a window in the actual terminal, the window needs to be refreshed.
 
 [XCode linker error](https://blog.csdn.net/liujia216/article/details/53112709)  
 [when we need to tell compiler to -lxxxlib](https://www.linuxquestions.org/questions/programming-9/several-undefined-reference-to-error-when-compiling-a-c-programm-186781/ )  
-ex.   `-lm` 
+ex.   `-lm`   
 [string to char*](https://stackoverflow.com/questions/7352099/stdstring-to-char)
 
 
