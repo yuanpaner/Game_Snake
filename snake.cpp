@@ -156,24 +156,20 @@ public:
         switch(c)
         {
             case KEY_LEFT:
-                if(m_dir == Direction::RIGHT)
-                    break;
-                m_dir = Direction::LEFT;
+                if(m_dir != Direction::RIGHT)
+                    m_dir = Direction::LEFT;
                 break;
             case KEY_RIGHT:
-                if(m_dir == Direction::LEFT)
-                    break;
-                m_dir = Direction::RIGHT;
+                if(m_dir != Direction::LEFT)
+                    m_dir = Direction::RIGHT;
                 break;
             case KEY_UP:
-                if(m_dir == Direction::DOWN)
-                    break;
-                m_dir = Direction::UP;
+                if(m_dir != Direction::DOWN)
+                    m_dir = Direction::UP;
                 break;
             case KEY_DOWN:
-                if(m_dir == Direction::UP)
-                    break;
-                m_dir = Direction::DOWN;
+                if(m_dir != Direction::UP)
+                    m_dir = Direction::DOWN;
                 break;
             case QUIT:
                 m_isOver = true;
