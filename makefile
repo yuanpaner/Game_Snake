@@ -1,4 +1,4 @@
-SOURCES = snake.cpp
+SOURCES = snake_matrix.cpp
 # LIBS = -framework OpenGL -framework GLUT -framework Foundation
 # LIBS += -lm -lGLEW 
 # LIBS += -lm -lGL -lglut -lGLEW 

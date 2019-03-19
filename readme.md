@@ -37,6 +37,11 @@ Record the snake body points for drawing the body and checking if the snake hits
 * deque  
 Record the snake body's sequence to push the next "head" and pop the tail if not eating one fruit.   
 
+* vector of vector  
+See file `snake_matrix.cpp`  
+Alternative way of hash_set.  
+Record the point status in a matrix, snake body, fruit, empty and boundary.   
+
 > I use customized hash function for the STL `unordered_set`.  
 
 ## Draw Board Flow
@@ -122,7 +127,7 @@ contents of a window in the actual terminal, the window needs to be refreshed.
 [XCode linker error](https://blog.csdn.net/liujia216/article/details/53112709)  
 [when we need to tell compiler to -lxxxlib](https://www.linuxquestions.org/questions/programming-9/several-undefined-reference-to-error-when-compiling-a-c-programm-186781/ )  
 ex.   `-lm` 
-
+[string to char*](https://stackoverflow.com/questions/7352099/stdstring-to-char)
 
 
 ## Code Examples   
